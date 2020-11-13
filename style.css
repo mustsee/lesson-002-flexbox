@@ -1,0 +1,131 @@
+/*******************************
+********* CSS SET UP ***********
+****** DO NOT MODIFY ! *********
+*******************************/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: #aaa;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 2% 5%;
+    background-color: pink;
+    color: blue;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.block:hover {
+    cursor: pointer;
+}
+
+.main-exercise-01, .main-exercise-02, .main-exercise-03, .main-exercise-04, .main-exercise-05, .main-exercise-06, .main-exercise-07, .main-exercise-08, .main-exercise-09 {
+    display: flex;
+    flex: 1;
+}
+
+/************************************
+********* FLEX CHEAT SHEET **********
+************************************
+
+justify-content
+
+flex-start : Les éléments s'alignent au côté gauche du conteneur.
+flex-end : Les éléments s'alignent au côté droit du conteneur.
+center : Les éléments s'alignent au centre du conteneur.
+space-between : Les éléments s'affichent avec un espace égal entre eux.
+space-around : Les éléments s'affichent avec un espacement égal à l'entour d'eux.
+
+
+align-items
+
+flex-start : Les éléments s'alignent au haut du conteneur.
+flex-end : Les éléments s'alignent au bas du conteneur.
+center : Les éléments s'alignent au centre vertical du conteneur.
+baseline : Les éléments s'alignent à la ligne de base du conteneur.
+stretch : Les éléments sont étirés pour s'adapter au conteneur.
+
+
+flex-direction
+
+row : Les éléments sont disposés dans la même direction que le texte.
+row-reverse : Les éléments sont disposés dans la direction opposée au texte.
+column : Les éléments sont disposés de haut en bas.
+column-reverse : Les éléments sont disposés de bas en haut.
+
+
+/*******************************
+******* EXERCISE 01 ************
+*******************************/
+
+.main-exercise-01 {
+
+}
+
+.block-exercise-01 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+/*******************************
+******* EXERCISE 02 ************
+*******************************/
+
+.main-exercise-02 {
+
+}
+
+.block-exercise-02 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 8px;
+}
